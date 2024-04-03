@@ -7,7 +7,7 @@ wget https://github.com/availproject/avail-light/releases/download/v1.7.10/avail
 tar xvzf avail-light-linux-amd64.tar.gz
 
 # Prompt user to enter text for identity.toml file
-echo "Masukkan teks untuk file identity.toml:"
+echo "Masukkan teks/PHASE Wallet untuk file identity.toml:"
 read identity_text
 
 # Create identity.toml file and write the entered text into it
